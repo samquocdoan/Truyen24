@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/assets/js/home.js" defer></script>
+    <script src="/assets/js/comics.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Truyen24</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="/index.html" class="logo">TRUYEN<span class="highlight">24</span></a>
+            <div class="header-action-container">
+                <div class="row-24">
+                    <button class="header-action comic-type-btn">
+                        Dạng Truyện
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li>Truyện mới</li>
+                                <li>Truyện Cũ</li>
+                                <li>Chuyển sinh abc xyz</li>
+                            </ul>
+                        </div>
+                    </button>
+                    <button class="header-action category-btn">
+                        Thể Loại
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li>Comedy</li>
+                                <li>Action</li>
+                                <li>Slice life</li>
+                                <li>Truyện màu</li>
+                                <li>Chuyển sinh abc xyz</li>
+                                <li>Manhua</li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+                <input class="search-input" type="text" placeholder="Tìm kiếm">
+            </div>
+            <div class="header-action-container--mobile">
+                <button class="menu-btn"><img src="/assets/icons/menu.svg" alt="Menu"></button>
+                <div class="menu-modal">
+                    <div class="row-space-between">
+                        <button class="close-modal-button"><img src="/assets/icons/close.svg" alt="Close"></button>
+                        <a href="/index.html" class="logo">TRUYEN<span class="highlight">24</span></a>
+                    </div>
+                    <input class="search-input" type="text" placeholder="Tìm kiếm">
+                    <button class="header-action comic-type-btn">
+                        <div class="row-space-between">
+                            <span>Dạng Truyện</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                        </div>
+
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li>Truyện mới</li>
+                                <li>Truyện Cũ</li>
+                                <li>Chuyển sinh abc xyz</li>
+                            </ul>
+                        </div>
+                    </button>
+                    <button class="header-action category-btn">
+                        <div class="row-space-between">
+                            <span>Thể loại</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                        </div>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li>Comedy</li>
+                                <li>Action</li>
+                                <li>Slice life</li>
+                                <li>Truyện màu</li>
+                                <li>Chuyển sinh abc xyz</li>
+                                <li>Manhua</li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- <div class="breadcrumb-container">
+                <nav class="breadcrumb">
+                    <a href="/">Trang chủ</a>
+                    <span> / </span>
+                    <a href="/danh-sach">Danh sách</a>
+                    <span> / </span>
+                    <span class="current">Sinh Viên</span>
+                    <span> / </span>
+                    <a href="/danh-sach">Danh sách</a>
+                    <span> / </span>
+                    <a href="/danh-sach">Danh sách</a>
+                </nav>
+            </div> -->
+            <div class="comic-container">
+                <div class="column-8">
+                    <span class="comic-title">Mới Cập Nhật</span>
+                    <div class="comic-list"><!-- Comics Here! --></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Made by Sam with 🖱️ and ⌨️</p>
+        </div>
+    </footer>
+</body>
+
+</html>
